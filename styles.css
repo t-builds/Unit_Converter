@@ -82,7 +82,7 @@ button:active {
   text-align: center;
   background-color: #273549;
   border: 3px solid #b295ff;
-  width: 70%;
+  width: 80%;
   height: 120px;
 }
 
@@ -118,6 +118,7 @@ button:active {
     font-size: medium;
   }
 }
+
 
 
 
