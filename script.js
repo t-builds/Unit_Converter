@@ -12,6 +12,9 @@ btn.addEventListener("click", function () {
   if (ip == 0 || ip < 0) {
     alert("Please enter a valid number!");
     return;
+  } else if (ip > 999) {
+    alert("Please enter a small number!");
+    return;
   }
 
   const meters = (ip / 3.28).toFixed(3);
@@ -29,3 +32,4 @@ btn.addEventListener("click", function () {
   lgtxt_el.innerHTML = `${ip} liters = ${glons} gallons${sep}${ip} gallons = ${ltrs} liters`;
   kptxt_el.innerHTML = `${ip} kilos = ${pounds} pounds${sep}${ip} pounds = ${kilo} kilos`;
 });
+
