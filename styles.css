@@ -107,7 +107,7 @@ button:active {
 
 @media (max-width: 480px) {
   .htxt {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .bdy {
@@ -118,6 +118,7 @@ button:active {
     font-size: medium;
   }
 }
+
 
 
 
