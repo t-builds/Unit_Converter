@@ -1,0 +1,116 @@
+body {
+  background-color: #1f2937;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Bpmf Zihi Kai Std", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #6943ff;
+}
+
+.htxt {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 800;
+  text-shadow: 0px 0px 3px black;
+}
+
+input[type="text"] {
+  text-align: center;
+  background-color: #6943ff;
+  border: 3px solid #b295ff;
+  padding: 8px 16px;
+  height: 60px;
+  width: 70px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  text-shadow: 0px 0px 3px black;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+input[type="text"]:active,
+input[type="text"]:focus {
+  border: 3px solid #b295ff;
+  outline: none;
+}
+
+#hbtn {
+  background-color: #ffffff;
+  font-family: inherit;
+  text-shadow: 0px 0px 3px aliceblue;
+  color: #3d3d3d;
+  font-weight: bold;
+  font-size: large;
+  padding: 9px 18px;
+  border-radius: 5px;
+  border: 3px solid #273549;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+.body {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.bdy {
+  text-align: center;
+  background-color: #273549;
+  border: 3px solid #b295ff;
+  width: 70%;
+  height: 120px;
+}
+
+.lg_ptxt,
+.mf_ptxt,
+.kp_ptxt {
+  color: #ccc1ff;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 0px 0px 2px black;
+}
+
+.lg_ptxt2,
+.mf_ptxt2,
+.kp_ptxt2 {
+  text-align: center;
+  color: #e8e9eb;
+  font-weight: bold;
+  font-size: larger;
+  text-shadow: 0px 0px 2px black;
+}
+
+@media (max-width: 480px) {
+  .htxt {
+    font-size: 30px;
+  }
+
+  .bdy {
+    height: 150px;
+  }
+}
